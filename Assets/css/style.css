@@ -1,0 +1,122 @@
+nav {
+  background-color: #373a3c !important;
+}
+
+.titleNav {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+  margin-bottom: 0rem;
+}
+
+.carousel-4 .carousel-item {
+  margin-right: 1rem;
+}
+
+.carousel-4 .carousel-item:last-of-type {
+  margin-right: 0;
+}
+
+.divPrincipal {
+  margin-top: 60px;
+}
+
+.titlePrincipal {
+  font-size: 40px;
+  font-family: "Cabin", sans-serif;
+  text-align: left;
+}
+
+.lineaSeparadora {
+  height: 1px;
+  background-color: black;
+  width: 100%;
+}
+
+.cabinBold {
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.cabinRegular {
+  font-family: "Cabin", sans-serif;
+  text-align: left;
+}
+
+.buttonPrincipal {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-top: 40px;
+}
+
+.marginTop {
+  margin-top: 40px;
+}
+
+.marginDerecha {
+  margin-right: 40px;
+}
+
+.divBordeAbajo {
+  margin-bottom: 30px;
+}
+
+.divInteriorh3 {
+  font-size: 20px;
+}
+
+.divCardGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribete {
+  height: 534px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #dc3545;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.fondoRojo {
+  background-color: #dc3545;
+}
+
+footer {
+  height: 80px;
+  background-color: #373a3c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lobster", cursive;
+  font-size: 37px;
+  color: white;
+}
+
+/* Define el estilo para el texto de los títulos */
+h3 {
+  color: black;
+}
+/* Define el estilo para el texto de los títulos cuando se hace doble clic */
+h3.rojo {
+  color: red;
+}
+
+.h3Underline{
+  text-decoration: underline;
+  text-underline-position: under;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767.98px) {
+  #carouselExampleControls {
+    display: none;
+  }
+}
